@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 500vh;
+}
+ .banner{
+    width: 100%;
+    height: 900px;
+    background: url("./Rectangle\ \(1\).png") no-repeat center/cover;
+ }
+ .navbar{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #a1a1a1;
+ }
+ .nav_collection{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    color: #fff;
+ }
+ .banner p      {
+    text-align: center;
+    padding-top: 220px;
+    color: #fff;
+ }
+ .banner h1{
+    text-align: center;
+    padding: 20px 0 50px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.34;
+ }
+  .btn{
+    padding: 13px 36px;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    border: none;
+    background: #4985ff;
+    color: #fff;
+  }
+  .title{
+    text-align: center;
+    padding: 110px 0 50px;
+    color: #323232;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.46;
+  }
+ .desc{
+    color: #999;
+    text-align: center;
+    font-weight: 400;
+    line-height: 156.47%;
+    width: 45%;
+    margin: auto;
+ }
